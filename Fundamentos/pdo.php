@@ -17,10 +17,10 @@ try {
 	$statement = $conexion->prepare('INSERT INTO usuarios VALUES(null, "Jose")');
 	$statement->execute();
 
-	$resultados = $statement->fetchAll();
-	foreach($resultados as $usuario){
-		echo $usuario['nombre'] . '<br>';
-	}
+	// $resultados = $statement->fetchAll();
+	// foreach($resultados as $usuario){
+	// 	echo $usuario['nombre'] . '<br>';
+	// }
 
 
 }catch(PDOException $e){
