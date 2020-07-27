@@ -11,7 +11,14 @@
 // $resultados = glob('*.{php,html,txt}', GLOB_BRACE);
 // print_r($resultados);
 
+// $resultados = glob('session/*.{php,html,txt}', GLOB_BRACE);
+// print_r($resultados);
+
+
 // echo basename('carpeta1/carpeta2/archivo.php', '.php');
+// Obtenemos el nombre del archivo sin ruta
+
+//Nos devuelve toda la ruta, menos el nombre de archivo
 echo dirname('carpeta1/carpeta2/archivo.php');
 
 ?>
